@@ -300,7 +300,7 @@
 
         function sendOrder() {
             const message = `📦 Pedido:%0A${cart.join('%0A')}%0A%0A💰 Total: $${(cart.length * 9.99).toFixed(2)}%0A%0A⚠️ Términos aceptados`;
-            window.open(`https://wa.me/15756313858?text=${message}`, '_blank');
+            window.open(`https://wa.me/15756313857?text=${message}`, '_blank');
             cart = [];
             localStorage.removeItem('cart');
             updateCart();
